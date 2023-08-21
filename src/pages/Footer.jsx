@@ -10,17 +10,12 @@ function Footer() {
         <div className="footer-content">
           <div className="footer-section container">
             <div className="d-flex ">
-            <img
-              alt=""
-              src="/src/assets/logo.png"
-              height="30"
-              className="d-inline-block align-top"
-            />
-            <h3>ㅤEcoPlanet</h3>
+            
+            
+            <h3>SIPREMO</h3>
             </div>
-            <p>
-              EcoPlanet: Transformando ações diárias em sustentabilidade global.
-            </p>
+           
+            
           </div>
           <div className="footer-section">
             <h3>Links Úteis</h3>

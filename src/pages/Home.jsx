@@ -6,7 +6,7 @@ import Descript from "./Descript";
 import Recursos from "./Recursos";
 import Impact from "./DescriptImpacto";
 import Ideia from "./DescriptIdeia";
-import "./Home.css"; // Importe o arquivo CSS que você criou
+import "./Home.css";
 
 function Home() {
   return (
@@ -25,13 +25,17 @@ function Home() {
         </div>
         <div className="conteudo">
           <Impact
-            text="O EcoPlanet visa sensibilizar e educar as pessoas sobre a importância da sustentabilidade, incentivando ações positivas para minimizar o impacto ambiental. Ao reunir uma comunidade comprometida, a plataforma pode contribuir para a redução das emissões de carbono, a conservação de recursos naturais e o estímulo a uma economia mais verde."
+            text="O impacto que a Sipremo terá sobre a nossa floresta é extraordinário, prevendo os problemas economizamos muito dinheiro e tambem perda de áreas florestais."
             imageUrl="https://cdn.discordapp.com/attachments/722415232521076746/1142939585974911087/64d3a3cd484296fe3036bfd6.png"
           />
         </div>
         <div className="proposta">
           <Ideia
-            text="Nossa proposta é criar um site de navegador interativo onde os usuários podem se envolver em atividades e desafios relacionados à sustentabilidade para ganhar EcoPoints. Esses EcoPoints seriam moedas virtuais que podem ser trocadas por recompensas reais, como descontos em produtos e serviços e doações para organizações ambientais."
+            text="Baseado nas duas verticais de influências do
+            ambiente e da operação, a IA foi construída,
+            como uma rede neural artificial em um modelo
+            semi-supervisionado para atender as demandas
+            de adaptação e escalar os resultados."
             imageUrl="https://cdn.discordapp.com/attachments/722415232521076746/1142939705411915857/64d3a07316dd22964487359e.png"
           />
         </div>

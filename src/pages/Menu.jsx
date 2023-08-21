@@ -5,25 +5,18 @@ import Navbar from "react-bootstrap/Navbar";
 function Menu() {
   return (
     <>
-      <Navbar bg="success" variant="dark">
+      <Navbar bg="primary" variant="dark">
         <Container>
         <Navbar.Brand href="/">
-            <img
-              alt=""  
-              src="/src/assets/logo.png"
-              height="30"
-              className="d-inline-block align-top"
-            />{' '}
-            EcoPlanet
+{' '}
+            SIPREMO
           </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/sobre">Sobre</Nav.Link>
             <Nav.Link href="/contato">Contato</Nav.Link>
           </Nav>
-          <Navbar.Text>
-            Signed in as: <a href="#login">Luiz Felipe</a>
-          </Navbar.Text>
+         
         </Container>
       </Navbar>
     </>
